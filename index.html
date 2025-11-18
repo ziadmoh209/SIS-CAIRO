@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="index.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cairo University</title>
+</head>
+<body>
+ <aside>
+   <form action="index2.html" method="get" class="form">
+    <div>
+      <h2>Cairo University </h2>
+     <input type="text" class="user"
+     name="username"
+     placeholder="username" required 
+     autofocus>
+     </div>
+     <div>
+     <input type="password" class="user"
+     name="password"
+     placeholder="password" required
+     minlength="8" maxlength="20">
+     </div>
+     <span class="Sys">
+         <input type="radio" id="Sys"
+       class="Sys"
+       value="System user" name="user" required>
+       <label for="Sys">System user</label>
+     </span>
+     <span  class="Sys">
+              <input type="radio" id="Stf"
+       class="Sys"
+       value="Staff" name="user" required
+       checked>
+       <label for="Stf">Staff</label>
+     </span>
+     <div  class="Sys">
+      <input type="radio" id="std"
+       class="Sys"
+       value="Student" name="user" required>
+       <label for="std">student </label>
+     </div>
+     <input type="submit" class="butsb"
+     value="Login">
+     <div class="forget">
+      <a class="forget"  target="_blank"
+      href="forget.html" title="forget account">
+        <h4>
+          forget username or password 
+        </h4>
+      </a>
+     </div>
+          <div class="forget">
+      <a class="forget"  target="_blank"
+      href="index3.html" title="forget account">
+        <h4>
+          تسجيل طالب جديد
+        </h4>
+      </a>
+   </form>
+ </aside> 
+ 
+</body>
+
+</html>

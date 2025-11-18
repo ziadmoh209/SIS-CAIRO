@@ -1,0 +1,25 @@
+body{
+  background-image: url("images.jpeg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+.aside{
+  background-color: #eee;
+  background-size: 100% 100%;
+  width: 250px;
+  border: 10px solid #eee;
+  border-radius: 3%;
+  text-align: center;
+  color: black;
+  position: absolute;
+  top: 30%;
+  left: 500px;
+}
+ .link{
+   margin-bottom: 15px;
+   margin-top: 10px;
+ }
+ .link:hover{
+   color: red;
+ }

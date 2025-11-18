@@ -1,0 +1,145 @@
+body{
+  background-image: url("images.jpeg");
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.form{
+  background-color: #fdfdfd; 
+  opacity: 0.8;
+  background-size: 100% 100%;
+  width: 550px;
+  border: 10px solid transparent;
+  border-radius: 40px;
+  text-align: center;
+  text-transform: capitalize;
+  
+}
+@media (MIN-WIdth: 1025px){
+  .form{
+    width: 550px;
+    margin-left: 27%;
+    margin-top: 10% !important;
+  }
+  .user{
+    width: 450PX  !important;
+  }
+  
+}
+@media (min-width: 768px ) and (max-width: 1024px){
+  .form{
+    width: 500px;
+    margin-left: 25PX;
+    
+    margin-top: 30%;
+  }
+  .user{
+    width: 400PX !important;
+  }
+}
+
+@media (min-width: 681px) and (max-width: 767px){
+  .form{
+    width: 400px;
+    margin-left: 25PX;
+    margin-top: 40%;
+
+
+       
+  }
+  
+  
+}
+@media (min-width: 481px) and (max-width: 680px){
+  .form{
+    width: 400px;
+    margin-top: 40%;
+   
+  }
+}
+@media (min-width: 320px) and (max-width: 480px){
+  .form{
+    width: 320px !important;
+    
+    margin-left: 30px;
+    margin-top: 62%;
+  }
+  .user{
+    width: 250px !important;
+  }
+  
+}
+/*
+@media (max-width: 465px){
+  .form{
+    width: 300px;
+    left: 10px;
+    right: 30%;
+  }
+  
+}
+  .user{
+    width: 250px;
+  }
+  
+@media (min-width: 324px) and (max-width: 464px){
+  .form{
+    margin-left: 37px;
+    width: 300px;
+  bottom: 10%;
+  font-size: 16px;
+  }
+  .user{
+    width: 250PX  !important;
+    font-size: 18px;
+
+  }
+}
+*/
+.user{
+  background-color: #eee;
+  background-size: 100% 100%;
+  border: 10px solid #eee;
+  border-radius:  7px;
+  font-size: 25px;
+  text-align: center;
+  outline: none;
+  width: 330px;
+  height: 50px;
+  margin: 10px 20px 10px 20px;
+}
+.user:focus{
+   border-bottom: 4px solid  skyblue;
+}
+.butsb{
+  background-color: royalblue;
+color: white;
+font-size: 25px;
+background-size: 100% 100%;
+width: 257PX;
+border: 10px solid royalblue;
+border-radius: 15px;
+margin-top: 10px;
+margin-bottom: 5px;
+text-align: center;
+text-transform: capitalize;
+font-size: 25px;
+}
+h2{
+  color: royalblue;
+  text-transform: uppercase;
+}
+.forget{
+  text-decoration: none;
+  color: steelblue;
+  font-size: 20px;
+}
+.forget:hover{
+  text-decoration: underline;
+}
+.Sys{
+  color:  red;
+  text-transform: capitalize;
+  font-size: 20PX;
+}
